@@ -7,7 +7,8 @@
  "field_order": [
   "client_id",
   "client_secret",
-  "redirect_url"
+  "redirect_url",
+  "sso_secret"
  ],
  "fields": [
   {
@@ -25,9 +26,14 @@
    "fieldname": "redirect_url",
    "fieldtype": "Data",
    "label": "Redirect URL"
+  },
+  {
+   "fieldname": "sso_secret",
+   "fieldtype": "Password",
+   "label": "SSO Secret"
   }
  ],
- "modified": "2020-07-28 14:43:38.677443",
+ "modified": "2020-07-28 18:17:23.405300",
  "modified_by": "shridhar.p@zerodha.com",
  "module": "Frappe Discourse",
  "name": "Discourse Settings",
