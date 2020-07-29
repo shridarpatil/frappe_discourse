@@ -1,6 +1,14 @@
 ## Frappe Discourse
 
+
 Discourse sso using frappe.
+
+### Install
+Run the following command to install the app
+`bench get-app https://github.com/shridarpatil/frappe_discourse.git`
+`bench install-app frappe_discourse`
+
+### Setup
 Register a client in `Discourse Settings` DocType with client id, client secret and sso secret.
 
 ![image](https://user-images.githubusercontent.com/11792643/88766285-60a54e80-d195-11ea-8b4e-c4956cb2f8e1.png)
