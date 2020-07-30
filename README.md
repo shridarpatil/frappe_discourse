@@ -5,7 +5,9 @@ Discourse sso using frappe.
 
 ### Install
 Run the following command to install the app
+
 `bench get-app https://github.com/shridarpatil/frappe_discourse.git`
+
 `bench install-app frappe_discourse`
 
 ### Setup
