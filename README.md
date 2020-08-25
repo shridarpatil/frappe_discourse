@@ -1,7 +1,7 @@
 ## Frappe Discourse
 
 
-Discourse sso using frappe.
+Simple frappe app to setup Single sign-on for discource.
 
 ### Install
 Run the following command to install the app
